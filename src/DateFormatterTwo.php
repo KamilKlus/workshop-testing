@@ -15,15 +15,15 @@ class DateFormatterTwo
 
         if(date("H") < 12){
 
-            return "good morning";
+            return "Dobré ráno";
 
         }elseif(date("H") > 11 && date("H") < 18){
 
-            return "good afternoon";
+            return "Dobré odpoledne";
 
         }elseif(date("H") > 17){
 
-            return "good evening";
+            return "Dobrý večer";
 
         }
 
